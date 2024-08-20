@@ -1,0 +1,50 @@
+* {
+    margin:0;
+    padding:0;
+    outline:0;
+}
+
+#appFrame{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)), url('images/background-1.jpg');
+    height: 100vh;
+    width: 100vw;
+    background-size: 100vw;
+    /*filter: blur(8px);*/
+}
+
+.flex{
+    display: flex;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.items-center{
+    align-items: center;
+}
+
+#weatherBox{
+    width:500px;
+    height: 400px;
+    background: rgba(118, 67, 20, 0.3);
+    backdrop-filter: blur(8px);
+    border-radius: 15px;
+    box-shadow: 2px 2px 20px black;
+}
+
+#appFrameSec{
+    height: 100vh;
+    width:100vw;
+}
+
+.cardItem{
+    background: transparent;
+    transition: background 1s ease-in-out;
+}
+
+.cardItem:hover{
+    background:#33220f;
+    cursor: pointer;
+    transition: background 1s ease-in-out;
+}
